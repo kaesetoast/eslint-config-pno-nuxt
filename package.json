@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pno-nuxt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My eslint-configuration for nuxt projects",
   "main": "index.js",
   "repository": {
