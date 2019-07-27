@@ -126,6 +126,15 @@ module.exports = {
 	  // Maximum 5 attributes per line instead of one
 	  'vue/max-attributes-per-line': ['error', {
 		singleline: 5
+	  }],
+
+	  // streamline indentation
+	  "vue/html-indent": ["error", 'tab', {
+		"attribute": 1,
+		"baseIndent": 1,
+		"closeBracket": 0,
+		"alignAttributesVertically": true,
+		"ignores": []
 	  }]
 	}
   }
