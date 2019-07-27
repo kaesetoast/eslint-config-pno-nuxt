@@ -135,6 +135,9 @@ module.exports = {
 		"closeBracket": 0,
 		"alignAttributesVertically": true,
 		"ignores": []
-	  }]
+	  }],
+
+	  // avoid conflict with prettier
+	  "vue/html-self-closing": 0,
 	}
   }
