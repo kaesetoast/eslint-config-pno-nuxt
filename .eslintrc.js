@@ -5,7 +5,6 @@ module.exports = {
 	  'jest/globals': true
 	},
 	extends: [
-	  'standard',
 	  'plugin:import/errors',
 	  'plugin:import/warnings',
 	  'plugin:vue/recommended'
